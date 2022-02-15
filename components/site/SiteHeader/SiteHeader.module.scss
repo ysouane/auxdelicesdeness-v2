@@ -1,0 +1,69 @@
+@import '@/styles/common';
+
+
+.siteHeader {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: $siteColor-pink;
+  top: 0;
+  z-index: $zindex-header-backToTop-footer;
+  white-space: nowrap;
+  margin-bottom: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+  @media screen and (min-width: $breakpoints-xl) {
+    margin-bottom: 3rem;
+  }
+
+  &__logo {
+    display: block;
+    text-align: center;
+  }
+
+  &__navBar {
+    display: flex;
+  }
+
+  &__navBar__menus {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    color: $siteColor-brown !important;
+
+    @media screen and (min-width: $breakpoints-xl) {
+      justify-content: center;
+    }
+  }
+
+  &__navBar__menu {
+    color: $siteColor-brown !important;
+
+    @media screen and (min-width: $breakpoints-xl) {
+      margin: 1rem;
+    }
+
+    .active,
+    &:hover {
+      text-decoration: underline;
+      font-weight: 600;
+    }
+  }
+
+  &__socialMedia {
+    display: flex;
+    margin-bottom: .5rem;
+    justify-content: flex-end;
+
+    @media screen and (min-width: $breakpoints-xl) {
+      margin-right: 1rem;
+      margin-bottom: 0;
+    }
+
+    &__socialMedia__media {
+      padding: .3rem;
+    }
+  }
+}

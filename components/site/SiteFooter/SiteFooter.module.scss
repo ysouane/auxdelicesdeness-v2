@@ -1,0 +1,66 @@
+@import '@/styles/common';
+
+
+.footer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  bottom: 0;
+  background-color: $siteColor-brown;
+  color: #fff;
+  font-family: Sail;
+  z-index: $zindex-header-backToTop-footer;
+  margin-top: 3rem;
+  font-weight: 500;
+
+  .reassurance {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    background-color: $siteColor-pink;
+    color: #000;
+    text-align: center;
+
+    @media screen and (min-width: $breakpoints-md) {
+      flex-direction: row;
+    }
+
+    .reassurance__item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .reassurance__item:not(:last-child) {
+      @media screen and (max-width: $breakpoints-md) {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .reassurance__item__title {
+      font-weight: 600;
+    }
+
+    .reassurance__item__description {
+      font-family: cursive;
+      font-size: 13px;
+    }
+  }
+
+  .socialMedia {
+    display: flex;
+    justify-content: center;
+    background-color: $siteColor-brown;
+    box-shadow: 0 -2px 4px 0 rgb(0 0 0 / 20%);
+
+    .media {
+      padding: .3rem;
+    }
+  }
+
+  .allRightsReserved {
+    align-self: center;
+  }
+}

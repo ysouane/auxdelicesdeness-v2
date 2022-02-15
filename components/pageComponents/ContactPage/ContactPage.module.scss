@@ -1,0 +1,64 @@
+@import '@/styles/common';
+
+
+.contactForm {
+  margin-top: 2rem;
+  height: auto;
+  width: 100%;
+  text-align: center;
+
+  .contactForm__contactMe {
+    font-size: 2em;
+    margin-bottom: 1rem;
+  }
+
+  .contactForm__information {
+    margin-top: 1rem;
+    overflow-wrap: break-word;
+  }
+
+  .contactForm__information,
+  .contactForm__contactMe {
+    color: $siteColor-brown;
+  }
+
+  .contactForm__star {
+    color: #f00;
+  }
+
+  label {
+    width: 90%;
+    text-align: start;
+    margin-bottom: 2rem;
+  }
+
+  .form-select label {
+    margin-top: 2rem;
+  }
+
+  @media screen and (min-width: $breakpoints-xl) {
+    label {
+      width: 50%;
+    }
+  }
+
+  &__dateEvent {
+    margin-top: 2rem;
+  }
+
+  .contactForm__footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contactForm__footer__submit {
+    background-color: $siteColor-brown;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+
+  .contactFormm__footer__legal {
+    font-size: .8em;
+    color: grey;
+  }
+}

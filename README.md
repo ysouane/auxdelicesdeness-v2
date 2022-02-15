@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Aux délices de Ness
 
-## Getting Started
+Showcase site of artisanal cakes.
 
-First, run the development server:
+It was implemented with the Next Js framework coupled with the Headless Sanity CMS.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Stack : Typescript, Sass, bootstrap, swiper, next-seo, nodemail.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Testing with Jest and React Testing Library.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Hosting by Vercel.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Live version
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+An online version of the site can be found here
 
-## Learn More
+[Aux délices de Ness](https://auxdelicesdeness-453mnezfd-ysouane0-gmailcom.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+The website is not finished and is still under construction.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Getting started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Download the repository
 
-## Deploy on Vercel
+- Install dependencies with npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Launch the site locally with the command "npm run dev"
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Open http://localhost:3000 with your browser to see the result.
+
+
+## Sanity CMS Headless
+- This project was use with the CMS Headless Sanity : https://www.sanity.io/
+
+- For manage the CMS online : https://auxdelicesdeness.sanity.studio/
+
+- For documentation :
+-- Sanity : https://www.sanity.io/docs/getting-started
+-- Aux délices de Ness : https://github.com/ysouane/auxdelicesdeness/wiki/Sanity-CMS-Documentation-fonctionnelle

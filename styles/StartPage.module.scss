@@ -1,0 +1,26 @@
+@import "./common";
+
+
+.startPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: $siteColor-pink;
+  height: 100vh;
+  opacity: 1;
+  animation: fade 2s linear;
+
+  @keyframes fade {
+    0% {
+      opacity: 0
+    }
+
+    50% {
+      opacity: .5
+    }
+
+    100% {
+      opacity: 1
+    }
+  }
+}

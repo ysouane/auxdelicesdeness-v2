@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Sail';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../public/fonts/Sail-Regular.ttf'),
+}
+
+/* Typography */
+$font-family-base: 'Sail',
+Helvetica,
+Arial,
+sans-serif !default;
+
+/* Colors */
+$siteColor-brown: #a37c37 !default;
+$siteColor-pink: #fef4f3 !default;
+
+/* Z-Index */
+$zindex-header-backToTop-footer: 1000 !default;
+
+/* Breakpoints */
+$breakpoints: (xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px);
+
+$breakpoints-xl: map-get($map: $breakpoints, $key: xl);
+$breakpoints-md: map-get($map: $breakpoints, $key: md);
