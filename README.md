@@ -14,7 +14,7 @@ Hosting by Vercel.
 
 An online version of the site can be found here
 
-[Aux délices de Ness](https://auxdelicesdeness-453mnezfd-ysouane0-gmailcom.vercel.app/)
+[Aux délices de Ness](https://auxdelicesdeness-v2.vercel.app/)
 
 The website is not finished and is still under construction.
 
