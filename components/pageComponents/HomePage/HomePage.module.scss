@@ -23,7 +23,7 @@
     }
   }
 
-  .homePage__welcome {
+  &__welcome {
     font-size: 2em;
     text-align: center;
     color: $siteColor-brown;
@@ -32,7 +32,7 @@
     margin-bottom: 1rem;
   }
 
-  .homePage__history {
+  &__history {
     display: flex;
     flex-direction: column;
     max-height: 500px;
@@ -58,17 +58,17 @@
       flex-direction: row;
     }
 
-    img {
+    &__image {
       margin-bottom: 1rem;
 
       @media screen and (min-width: $breakpoints-md) {
-        max-width: 50%;
+        min-width: 50%;
         margin-bottom: 0;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       }
     }
 
-    .homePage__welcome__text {
+    &__text {
       color: $siteColor-brown;
       overflow: auto;
       overflow-wrap: break-word;
