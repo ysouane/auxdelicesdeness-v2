@@ -35,5 +35,6 @@ The website is not finished and is still under construction.
 - For manage the CMS online : https://auxdelicesdeness.sanity.studio/
 
 - For documentation :
--- Sanity : https://www.sanity.io/docs/getting-started
--- Aux délices de Ness : https://github.com/ysouane/auxdelicesdeness/wiki/Sanity-CMS-Documentation-fonctionnelle
+> Sanity : https://www.sanity.io/docs/getting-started.
+>
+> Aux délices de Ness : https://github.com/ysouane/auxdelicesdeness/wiki/Sanity-CMS-Documentation-fonctionnelle
